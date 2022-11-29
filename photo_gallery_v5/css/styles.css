@@ -1,0 +1,41 @@
+
+
+#search {
+    padding: 0px;
+    display: block;
+    margin: 30px auto;
+    height: 35px;
+    width: 40%;
+    border: .5px solid #dfd1d1;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px .2px #bfbfbf;
+    padding: 0px 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    grid-gap: 20px;     
+}
+
+@media (min-width:768px) {
+
+    #search {
+        width: 30%;
+    }
+
+    .gallery {
+        padding-top: 70px;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, 300px);
+    }
+    
+    .photo {
+        padding: 10px;
+        border-radius: 20%;
+    }
+}
+
